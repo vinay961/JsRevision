@@ -1,0 +1,1 @@
+Revision of all important concept of Javascript at end of 2023.
