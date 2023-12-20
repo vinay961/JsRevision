@@ -74,3 +74,10 @@ let x = null
 //console.log(typeof x);  // output is object
 let y = 987654322n
 console.log(typeof y); // output is bigint
+
+
+// *********************************** MEMORY WORKING IN JS **************************
+/* 
+Two types of memory used 1. Stack and 2. Heap
+Stack for primitive dataTypes and Heap for Non-primitive dataTypes.
+*/
