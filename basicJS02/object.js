@@ -31,7 +31,53 @@ jsUser.isLoggedIn = true
 Object.freeze(jsUser)
 jsUser.isLoggedIn = false
 
-console.log(jsUser);
-console.log(jsUser1);
+// console.log(jsUser);
+// console.log(jsUser1);
 
+// ******************************* Object Singalton ***********************
+/* above we discuss about object literal now let's discuss about singalton objects */
+
+const tinderUser = new Object() // this is called singalton object
+tinderUser.id = "123abc"
+tinderUser.name = "Ram"
+// console.log(tinderUser);
+
+const regularUser = {
+    email : "abc@ramram.com",
+    fullname : {
+        firstname : "Vinay",
+        lastname : "Rai"
+    }
+}
+
+// console.log(regularUser);
+
+// ******************************** Combining Objects **********************
+const obj1 = {1:"a",2:"b"}
+const obj2 = {3:"c",4:"d"}
+
+// const obj3 = {obj1 , obj2}
+//console.log(obj3); // the problem is that we get object ke andar object
+
+// const obj3 = Object.assign(obj1,obj2)
+// console.log(obj3);
+
+// const obj3 = {...obj1,...obj2}
+// console.log(obj3);
+
+// ******************************** Object_To_Arrays **********************
+
+/* Lets Convert the keys of object tinderUser into array */
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+
+//********************************** Object Destructring ******************
+const course = {
+    course : "js in hindi",
+    price : "999",
+    courseInstructor : "vinay"
+}
+
+const {price,courseInstructor:Instruct} = course
+console.log(price,Instruct);
 
