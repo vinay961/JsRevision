@@ -23,8 +23,45 @@ function isLoggedIn(userName){
     return `${userName} is LoggedIn.`
 }
 
-console.log(isLoggedIn());
+// console.log(isLoggedIn());
 // here we pass parameter as Vinay, but if we do not pass parameter then it is undefined.
+
+
+// ********************************* Number of argument is Unknown **********************
+
+// function calculateCartPrice(num1){
+//     return num1;
+// }
+// console.log(calculateCartPrice(200,400,500)); // output: 200
+
+function calculateCartPrice(...num1){
+    return num1;
+}
+// console.log(calculateCartPrice(200,400,500));
+// while writing ... it give us array of all parameter
+
+
+// ********************************** Array and Object as Argument **********************
+
+const obj1 = {
+    name:"Vinay",
+    email:"india@gmail.com"
+}
+
+function takeObject(anyObject){
+    console.log(`My name is ${anyObject.name}`);
+}
+
+takeObject(obj1)
+
+
+let arr1 = [20,30,"Vinay",true,40]
+
+function takeArray(anyArray){
+    console.log(`Third element of array is ${anyArray[2]}`);
+}
+
+takeArray(arr1)
 
 
 
