@@ -36,6 +36,7 @@ val1 = null ?? 10
 const val2 = undefined ?? 15
 // console.log(val2); //outpu:15
 
+
 // *************** Ternary operartor--> It is different from above operator
 // condition ? true : false
 const iceTea = 100
