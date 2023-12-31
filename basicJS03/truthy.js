@@ -23,6 +23,7 @@ if(userEmail.length == 0){
 
 const obj1 = {}
 
+// object case
 if(Object.keys(obj1).length == 0){
     console.log("Object is empty.");
 }
