@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning NodeList</title>
+</head>
+<body style="background-color: #212121; color:#fff">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+
+    div.setAttribute("title","generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+
+    <!-- div.innerText = "I am Vinay" -->
+    // to perform above task we can use below appoach.
+    const addText = document.createTextNode("I am Vinay")
+    div.appendChild(addText)
+
+    // Until above thing is stored in memory to display this we use below approach.
+    document.body.appendChild(div)
+</script>
+</html>
