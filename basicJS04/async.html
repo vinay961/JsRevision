@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async in JS</title>
+</head>
+<body style="background-color: #212121; color: #fff" >
+    <h1>Code with Vinay</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setTimeout and setInterval are not core JavaScript function when we call them they go outside on webpage and then come through queue to callStack.
+
+    function textChange(){
+        const chg = document.querySelector('h1');
+        chg.innerHTML = "JavaScript with Vinay"
+    }
+    
+    // const newEle = document.createElement('h1')
+    // newEle.innerHTML = "JavaScript with Vinay"
+    // chg.replaceWith(newEle)
+    // console.log(newEle);
+
+    const changeMe = setTimeout(textChange,2000)
+    // now we can observe that after 2sec the heading get change but what can we do if we want to stop this process for any region.
+
+    document.querySelector('#stop').addEventListener('click',()=>{
+        clearTimeout(changeMe);
+        console.log("STOPPED");
+    })
+</script>
+</html>
