@@ -25,3 +25,10 @@
 
 
 // Java Script ka behaviour prototypal hota hai
+-> almost every thing is object in javascript.
+
+## string ----->
+## Array ------>    OBJECT-----> NULL
+## function --->
+
+above thing show that parent of string and array, etc are object and that of object is null.

@@ -63,4 +63,3 @@ Teacher.__proto__ = user
 
 // modern syntax
 Object.setPrototypeOf(Teacher,TeachingSupport)
-console.log(TeachingSupport[isAvailable]);
