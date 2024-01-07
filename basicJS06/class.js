@@ -36,3 +36,5 @@ user.prototype.changeUsername = function(){
 const x = new user("Vinay","Rai@kanpur.com",123)
 console.log(x.encryptPassword());
 console.log(x.changeUsername());
+
+// ## Note--> We use extends keyword for inheritence in js, 
