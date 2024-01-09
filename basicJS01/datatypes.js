@@ -73,7 +73,7 @@ reference type/non-primitive -> we can get memory reference.
 let x = null
 //console.log(typeof x);  // output is object
 let y = 987654322n
-console.log(typeof y); // output is bigint
+// console.log(typeof y); // output is bigint
 
 
 // *********************************** MEMORY WORKING IN JS **************************

@@ -7,6 +7,7 @@
 const descriptor = Object.getOwnPropertyDescriptor(Math,"PI")
 // console.log(descriptor);
 
+
 const chai = {
     name:"Green Tea",
     price: 250,
