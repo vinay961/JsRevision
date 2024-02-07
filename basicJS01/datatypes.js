@@ -5,7 +5,7 @@
 //  bigint
 //  string => ""
 //  boolean => true/false
-//  null
+//  null(null is not a datatype it just represent the abasence of any object)
 
 
 // **************************** TYPE_CONVERSION *************************
