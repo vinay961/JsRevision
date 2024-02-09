@@ -42,6 +42,16 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log("1" + 2 + 2);   output: 122
 // console.log(1 + 2 + "2");   output: 32
 
+
+
+// ***************************** Bitwise Operator ************************
+
+// &--> AND Operation
+// console.log(10 & 6); // output--> 2(1010 AND 0110 == 0010 -> 2)
+
+// | --> OR Operation
+// console.log(10 | 6); // output--> 14(1010 OR 0110 == 1110 -> 14)
+
 // ***************************** COMPARISION ****************************
 
 // console.log("2" > 1);  output: true
