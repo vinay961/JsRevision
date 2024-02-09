@@ -29,7 +29,7 @@
 //     default:
 //         break;
 // }
-const month = 3;
+/** const month = 3;
 switch (month) {
     case 1:
         console.log("January");
@@ -47,5 +47,22 @@ switch (month) {
     default:
         console.log("No match for your input");
         break;
-}
+} 
+**/
+
+let a = 10
+// if(a>0){
+//     if(a>5){
+//         console.log(" a is greater than 0 and 5");
+//     }
+//     else{
+//         console.log(" a is greater than 0 but less than 5");
+//     }
+// }else{
+//     console.log(" a is a negative number ");
+// }
+
+// Convert above task in ternary 
+
+a>0 ? a>5 ? console.log(" a is greater than 0 and 5") : console.log(" a is greater than 0 but less than 5") : console.log(" a is a negative number ");
 

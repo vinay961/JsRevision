@@ -35,7 +35,7 @@ val1 = null ?? 10
 // console.log(val1); //output:10
 
 const val2 = undefined ?? 15
-// console.log(val2); //outpu:15
+// console.log(val2); //output:15
 
 
 // *************** Ternary operartor--> It is different from above operator
