@@ -63,6 +63,12 @@ function takeArray(anyArray){
 
 takeArray(arr1)
 
+// If large number of parameter is passed, then we can use argument object.
+function printing(){
+    console.log(arguments);
+}
+printing(1,2,3,4,5)
+
 
 
 
