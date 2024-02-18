@@ -25,3 +25,22 @@ const newString = firstname.substring(0,4)
 // slice - work in same way as substring, it can also accept negavite numbers
 const newString1 = firstname.slice(-2,4)
 console.log(newString1);
+
+// why we took string immutable in almost every language
+// Ans-> string is immutable , that why we use this to store sensitive information like passwords, username,etc, also it make easy to work.
+
+// let x = 'Jaanvi'
+x = 'Rai'
+
+console.log(x);
+
+// split of string
+const str = 'Vinay Rai'
+// console.log(str.split("")); 
+// output:  [
+//     'V', 'i', 'n',
+//     'a', 'y', ' ',
+//     'R', 'a', 'i'
+//   ]
+
+console.log(str.split(" "));  // output: [ 'Vinay', 'Rai' ]

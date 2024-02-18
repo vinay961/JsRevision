@@ -69,6 +69,7 @@ function printing(){
 }
 printing(1,2,3,4,5)
 
+// We can use argument object inside inside normal function only, in case of arrow function we get something like global variable.
 
 
 

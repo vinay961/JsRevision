@@ -1,3 +1,5 @@
+// Notes --> hosting == if we call variable before their inisialization, and what happens internally is that when we declare variable it get assigned. this is called as hosting. Var is hosting support, while let is not support that
+
 if(true) {
     let a = 10
     const b = 20
