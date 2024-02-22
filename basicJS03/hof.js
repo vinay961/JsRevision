@@ -17,3 +17,28 @@
 // let ans = greet()
 
 // Using higher order function we do async process
+
+// forEach()-->
+// let player = [1,2,3,4,5]
+// const newPlayer = player.forEach((num)=>{return num*num})
+// console.log(newPlayer); // output: undefined
+
+// map()-->
+// let player = [1,2,3,4,5]
+// const newPlayer = player.map((num)=>{return num*num})
+// console.log(newPlayer); // output: [ 1, 4, 9, 16, 25 ]
+
+// filter()-->
+// let number = [1,2,3,4,5,6];
+// number.filter((val,ind)=>{
+//     if(ind%2==0){
+//         console.log(val);
+//     }
+// })
+
+// reduce()-->
+// let arr = [1,2,3,4,5,6];
+// arr.reduce((x,y)=>{
+//     x+=y;
+//     console.log(x);
+// })
