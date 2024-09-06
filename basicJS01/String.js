@@ -29,7 +29,7 @@ console.log(newString1);
 // why we took string immutable in almost every language
 // Ans-> string is immutable , that why we use this to store sensitive information like passwords, username,etc, also it make easy to work.
 
-// let x = 'Jaanvi'
+// let x = 'Janhavi'
 x = 'Rai'
 
 console.log(x);
