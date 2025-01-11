@@ -37,7 +37,7 @@ function isLoggedIn(userName){
 function calculateCartPrice(...num1){
     return num1;
 }
-// console.log(calculateCartPrice(200,400,500));
+console.log(calculateCartPrice(200,400,500));
 // while writing ... it give us array of all parameter
 
 

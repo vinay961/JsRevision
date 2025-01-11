@@ -12,7 +12,7 @@ const jsUser = {
 /* There are two ways to access object 1. Dot Notation, 2.Square Notation */
 
 // console.log(jsUser.age);
-// console.log(jsUser["isLoggedIn"]);
+// console.log(jsUser["isLoggedIn"]); 
 
 // Interview Question is that take a symbol and use it in object and print that symbol
 
@@ -79,5 +79,5 @@ const course = {
 }
 
 const {price,courseInstructor:Instruct} = course
-console.log(price,Instruct,Instruct);
+// console.log(price,Instruct,Instruct);
 

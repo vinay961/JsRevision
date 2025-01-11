@@ -48,7 +48,7 @@ const d = [...a,...b]
 const e = [1,2,3,[3,4,5],6,[7,8,[9,6]]]
 // now if we need single array then we can use flat
 const real = e.flat(Infinity)
-// console.log(real);
+console.log(real);
 
 // ****************************** convert to arrays *****************************
 
@@ -61,4 +61,4 @@ let score1 = 12;
 let score2 = 10;
 let score3 = 15;
 
-console.log(Array.of(score1,score2,score3));
+// console.log(Array.of(score1,score2,score3));

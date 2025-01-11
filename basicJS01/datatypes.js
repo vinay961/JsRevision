@@ -26,7 +26,7 @@ let valueInNumber = Number(score)
 // conversion of number and string into boolean
 let isLoggedIn = "vinay";
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);
 
 // 1 => true
 // 0 => false
