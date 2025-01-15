@@ -77,7 +77,7 @@ primitive data type -> 7 types and they are call_by_value means we get copy of m
 reference type/non-primitive -> we can get memory reference.
                                 Arrays, Objects, function
 
-                                Note=> JavaScript is dynamic or static
+                                Note=> JavaScript is dynamically typed language that 
 */
 
 let x = null

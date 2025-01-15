@@ -11,7 +11,7 @@ function addTwoNumber(a,b){
 }
 
 let result = addTwoNumber(1,3)
-// console.log("Result:",result); // Result: 5
+// console.log("Result:",result); // Result: 4
 
 /* Note- code written after return statement doesn't executed. */
 
@@ -23,7 +23,7 @@ function isLoggedIn(userName){
     return `${userName} is LoggedIn.`
 }
 
-// console.log(isLoggedIn());
+// console.log(isLoggedIn("Vinay"));
 // here we pass parameter as Vinay, but if we do not pass parameter then it is undefined.
 
 
@@ -37,7 +37,7 @@ function isLoggedIn(userName){
 function calculateCartPrice(...num1){
     return num1;
 }
-console.log(calculateCartPrice(200,400,500));
+console.log(calculateCartPrice(200,400,500,600));
 // while writing ... it give us array of all parameter
 
 
@@ -65,7 +65,7 @@ takeArray(arr1)
 
 // If large number of parameter is passed, then we can use argument object.
 function printing(){
-    console.log(arguments);
+    console.log(arguments[0]);
 }
 printing(1,2,3,4,5)
 

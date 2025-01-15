@@ -28,7 +28,7 @@ promiseTwo.then(function(user){
 
 const promiseThree = new Promise(function(resolve,rejected){
     setTimeout(function(){
-        let error = true
+        let error = false
         if(!error){
             resolve({username:"VinayRai",email:"123@rai.com"})
         }
@@ -53,7 +53,7 @@ promiseThree.then((user)=>{
 
 const promiseFour = new Promise(function(resolve,rejected){
     setTimeout(function(){
-        let error = true
+        let error = false
         if(!error){
             resolve({username:"JavaScript",password:"123"})
         }else{

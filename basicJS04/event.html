@@ -25,12 +25,12 @@
 
     // lets try to understand the third parameter of addEventListener() --> its default behaviour is false means eventbubling, when we write true it means that eventCapturing
 
-    // document.getElementById('image').addEventListener('click',function(e){
-        // console.log('clicked inside the ul');
-    // },false)
-    // document.getElementById('owl').addEventListener('click',function(e){
-        // console.log('owl clicked');
-    // },false)
+    document.getElementById('images').addEventListener('click',function(e){
+        console.log('clicked inside the ul');
+    },true)
+    document.getElementById('owl').addEventListener('click',function(e){
+        console.log('owl clicked');
+    },false)
 
     // In above example we have unordered list if we click on ul then it console a message, in another method we say that when user clicked on owl image then also a message will get propagate, but we can observe that when a user clicked on owl image they also clicked on ul , so the question is that which message is shown first.it is decided by third parameter of addEventListner() if it is false it means buttom to up approach is followed, owl message shown first and then another message, vice versa for true. But what if we donn't want to print another method when we click on owl then we can use e.stopPropagation()
 
