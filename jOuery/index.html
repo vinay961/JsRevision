@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to jQuery</title>
+    <link rel="stylesheet" href="../nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../nivo-slider/jquery.nivo.slider.js"></script>
+
+</head>
+
+<body>
+    <div id="slider" class="nivoSlider">
+        <img src="../nivo-slider/demo/images/toystory.jpg" data-thumb="../nivo-slider/demo/images/toystory.jpg" alt="" />
+        <img src="../nivo-slider/demo/images/up.jpg" data-thumb="../nivo-slider/demo/images/up.jpg" alt="" title="This is an example of a caption" />
+        <img src="../nivo-slider/demo/images/walle.jpg" data-thumb="../nivo-slider/demo/images/walle.jpg" alt="" data-transition="slideInLeft" />
+        <img src="../nivo-slider/demo/images/nemo.jpg" data-thumb="../nivo-slider/demo/images/nemo.jpg" alt="" title="#htmlcaption" />
+    </div>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('#slider').nivoSlider({
+            effect: 'random',
+            slices: 15,
+            boxCols: 8,
+            boxRows: 4,
+            animSpeed: 500,
+            pauseTime: 3000,
+            startSlide: 0,
+            directionNav: true,
+            controlNav: true,
+            controlNavThumbs: false,
+            pauseOnHover: true,
+            manualAdvance: false,
+            prevText: 'Prev',
+            nextText: 'Next',
+            randomStart: false,
+            beforeChange: function () { },
+            afterChange: function () { },
+            slideshowEnd: function () { },
+            lastSlide: function () { },
+            afterLoad: function () { }
+        });
+    });
+</script>
+
+</html>
